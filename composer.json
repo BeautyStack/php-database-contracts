@@ -1,0 +1,20 @@
+{
+    "name": "beautystack/php-database-contracts",
+    "description": "Generic abstractions related to databases",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Beautystack\\Database\\Contracts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ken Lalobo"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "beautystack/php-value-object-contracts": "^0.0.1"
+    }
+}

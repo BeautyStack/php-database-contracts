@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6250b010ccfed814073d70b508c74efb",
+    "packages": [
+        {
+            "name": "beautystack/php-value-object-contracts",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BeautyStack/php-value-object-contracts.git",
+                "reference": "fd31a4ec05a3b0cc3e7f1180a158b94b61204520"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BeautyStack/php-value-object-contracts/zipball/fd31a4ec05a3b0cc3e7f1180a158b94b61204520",
+                "reference": "fd31a4ec05a3b0cc3e7f1180a158b94b61204520",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Beautystack\\Value\\Contracts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ken Lalobo"
+                }
+            ],
+            "description": "Generic abstractions related to value objects",
+            "support": {
+                "issues": "https://github.com/BeautyStack/php-value-object-contracts/issues",
+                "source": "https://github.com/BeautyStack/php-value-object-contracts/tree/0.0.1"
+            },
+            "time": "2022-09-10T14:48:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
