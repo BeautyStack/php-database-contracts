@@ -15,6 +15,6 @@
     ],
     "require": {
         "php": ">=8.0",
-        "beautystack/value-object-contracts": "^0.0.3"
+        "beautystack/value-object-contracts": "^0.0.6"
     }
 }

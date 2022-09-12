@@ -4,26 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5cc5c1dae9e6a9aad50ffb7811ba0477",
+    "content-hash": "2d1fa9cd30d2de0c8bffdedf1585e36b",
     "packages": [
         {
             "name": "beautystack/value-object-contracts",
-            "version": "0.0.3",
+            "version": "0.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BeautyStack/php-value-object-contracts.git",
-                "reference": "d42686ee2ca0755f5cc741f253ac0c22e578eed6"
+                "reference": "9cdbc9b597303f9f753bf5934661a8faaf4ac515"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BeautyStack/php-value-object-contracts/zipball/d42686ee2ca0755f5cc741f253ac0c22e578eed6",
-                "reference": "d42686ee2ca0755f5cc741f253ac0c22e578eed6",
+                "url": "https://api.github.com/repos/BeautyStack/php-value-object-contracts/zipball/9cdbc9b597303f9f753bf5934661a8faaf4ac515",
+                "reference": "9cdbc9b597303f9f753bf5934661a8faaf4ac515",
                 "shasum": ""
             },
             "require": {
                 "doctrine/collections": "^1.7",
                 "ext-json": "*",
-                "php": ">=7.1"
+                "php": ">=8.0"
             },
             "type": "library",
             "autoload": {
@@ -43,22 +43,22 @@
             "description": "Generic abstractions related to value objects",
             "support": {
                 "issues": "https://github.com/BeautyStack/php-value-object-contracts/issues",
-                "source": "https://github.com/BeautyStack/php-value-object-contracts/tree/0.0.3"
+                "source": "https://github.com/BeautyStack/php-value-object-contracts/tree/0.0.6"
             },
-            "time": "2022-09-12T16:08:09+00:00"
+            "time": "2022-09-12T22:04:59+00:00"
         },
         {
             "name": "doctrine/collections",
-            "version": "1.7.2",
+            "version": "1.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "3fe77330f5591108bbf1315da7377a7e704ed8a0"
+                "reference": "09dde3eb237756190f2de738d3c97cff10a8407b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/3fe77330f5591108bbf1315da7377a7e704ed8a0",
-                "reference": "3fe77330f5591108bbf1315da7377a7e704ed8a0",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/09dde3eb237756190f2de738d3c97cff10a8407b",
+                "reference": "09dde3eb237756190f2de738d3c97cff10a8407b",
                 "shasum": ""
             },
             "require": {
@@ -113,9 +113,9 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/collections/issues",
-                "source": "https://github.com/doctrine/collections/tree/1.7.2"
+                "source": "https://github.com/doctrine/collections/tree/1.7.3"
             },
-            "time": "2022-08-27T16:08:58+00:00"
+            "time": "2022-09-01T19:34:23+00:00"
         },
         {
             "name": "doctrine/deprecations",
