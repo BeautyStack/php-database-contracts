@@ -1,5 +1,5 @@
 {
-    "name": "beautystack/php-database-contracts",
+    "name": "beautystack/database-contracts",
     "description": "Generic abstractions related to databases",
     "type": "library",
     "license": "MIT",
