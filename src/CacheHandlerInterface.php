@@ -8,9 +8,9 @@ interface CacheHandlerInterface
 {
     public function delete(Id $id, string $className, int $version): void;
 
-    public function get(Id $id, string $className, int $version): DtoInterface | null;
+    public function get(Id $id, string $className, int $version): CacheableDtoInterface | null;
 
-    public function set(DtoInterface $dto, int | null $ttl = null): void;
+    public function set(CacheableDtoInterface $dto, int | null $ttl = null): void;
 
     public function getIdFromAlias(string $alias, string $className): Id | null;
 
