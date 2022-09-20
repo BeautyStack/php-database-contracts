@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Beautystack\Database\Contracts;
 
 use Beautystack\Database\Contracts\Exception\DuplicateEntityException;
@@ -20,5 +22,4 @@ interface RepositoryInterface
     public function persist(ModelInterface $model): void;
 
     public function exists(Id $id): bool;
-
 }
