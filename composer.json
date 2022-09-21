@@ -8,6 +8,11 @@
             "Beautystack\\Database\\Contracts\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Ken Lalobo"
@@ -16,5 +21,12 @@
     "require": {
         "php": ">=8.0",
         "beautystack/value-object-contracts": "^0.0.6"
+    },
+    "require-dev": {
+        "symplify/easy-coding-standard": "^11.1",
+        "symfony/polyfill-intl-grapheme": "^1.26",
+        "phpstan/phpstan": "^1.8",
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan-phpunit": "^1.1"
     }
 }
