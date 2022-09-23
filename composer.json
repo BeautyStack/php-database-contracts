@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": ">=8.0",
-        "beautystack/value-object-contracts": "^0.0.6"
+        "beautystack/value-object-contracts": "^0.0.7"
     },
     "require-dev": {
         "symplify/easy-coding-standard": "^11.1",

@@ -8,7 +8,7 @@ help: ## Display this help message
 
 .PHONY: analyze
 analyze: ## Runs static analysis tools
-		 docker run --user=1000:1000 --rm --name beautystack-php-database-contracts -v "${PWD}":/usr/src/myapp -w /usr/src/myapp php:8.0-cli php ./vendor/bin/phpstan analyse -l 6 -c phpstan.neon src
+		 docker build -t beautystack/php-database-contracts . && docker run --user=1000:1000 --rm --name beautystack-php-database-contracts -v "${PWD}":/usr/src/myapp -w /usr/src/myapp beautystack/php-database-contracts php ./vendor/bin/phpstan analyse -l 6 -c phpstan.neon src
 
 .PHONY: check-coverage
 check-coverage: ## Check the test coverage of changed files
@@ -20,4 +20,4 @@ install: ## Install dependencies
 
 .PHONY: style
 style: ## Check coding style
-		 docker run --user=1000:1000 --rm --name beautystack-php-database-contracts -v "${PWD}":/usr/src/myapp -w /usr/src/myapp php:8.0-cli php ./vendor/bin/ecs
+		 docker build -t beautystack/php-database-contracts . && docker run --user=1000:1000 --rm --name beautystack-php-database-contracts -v "${PWD}":/usr/src/myapp -w /usr/src/myapp beautystack/php-database-contracts php ./vendor/bin/ecs

@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Beautystack\Database\Contracts;
 
-use Serializable;
+use JsonSerializable;
 
-interface SerializableModelInterface extends ModelInterface, Serializable
+interface SerializableModelInterface extends ModelInterface, JsonSerializable
 {
 }

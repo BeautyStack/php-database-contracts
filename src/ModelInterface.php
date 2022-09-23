@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Beautystack\Database\Contracts;
 
-use Beautystack\Value\Contracts\Identity\Id;
+use Beautystack\Value\Contracts\Identity\IdInterface;
 
 interface ModelInterface
 {
-    public function getId(): Id;
+    public function getId(): IdInterface;
 }
